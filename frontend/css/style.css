@@ -1,4 +1,3 @@
-/* 1. Global Layout & Body */
 body {
     background-color: #8ACD52;
     font-family: Arial, sans-serif;
@@ -7,16 +6,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; /* Prevents scrollbars if content is tight */
+    overflow: hidden;
 }
 
-/* 2. The White Card (Container) */
 .container {
     background-color: #FFFFFF;
     border-radius: 30px;
     width: 90%;
     max-width: 900px;
-    padding: 25px 40px; /* Reduced padding to save vertical space */
+    padding: 25px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,21 +22,19 @@ body {
     box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 }
 
-/* 3. Header Styling */
 .text-section h1 {
-    font-size: 2rem; /* Scaled down from 3rem */
+    font-size: 2rem;
     font-weight: normal;
     line-height: 1.2;
     margin: 0 0 20px 0;
     text-align: center;
 }
 
-/* 4. Visualizer & Input Areas */
 .visualizer-area, .input-section {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Tightened row spacing */
+    gap: 15px;
     margin-bottom: 20px;
 }
 
@@ -46,20 +42,19 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    padding-top: 30px; /* Space for the pointers to sit above */
+    padding-top: 30px;
 }
 
 .input-group label {
     font-size: 1.2rem;
-    width: 80px; /* Narrower label column */
+    width: 80px;
     font-weight: bold;
 }
 
-/* 5. Letter Blocks Styling */
 .block-container {
     display: flex;
     gap: 5px;
-    min-height: 40px; /* Shorter containers */
+    min-height: 40px;
     padding: 8px;
     border: 2px dashed #ccc;
     border-radius: 10px;
@@ -69,7 +64,7 @@ body {
 }
 
 .char-block {
-    width: 35px;  /* Smaller blocks */
+    width: 35px;
     height: 35px;
     border: 2px solid #000;
     border-radius: 5px;
@@ -82,31 +77,28 @@ body {
     box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
 }
 
-/* 6. Result Box Specifics */
 .result-box {
     background-color: #e8f5e9;
     border: 2px solid #3A6B25;
     color: #3A6B25;
 }
 
-/* 7. Pointers (Rabbit & Triangle) */
 .pointer-space {
     position: absolute;
     top: 0px; 
-    left: 80px; /* Aligns with the end of the 80px label */
+    left: 80px;
     width: 100%;
     pointer-events: none;
 }
 
 .pointer-img {
     position: absolute;
-    width: 30px; /* Smaller pointer image */
+    width: 30px;
     height: auto;
-    top: -25px; /* Sits right above the blocks */
+    top: -25px;
     transition: all 0.3s ease;
 }
 
-/* 8. Controls & Buttons */
 .start-btn {
     background-color: #3A6B25;
     color: white;
@@ -123,7 +115,36 @@ body {
     background-color: #2D541C;
 }
 
-/* Utils */
+.landing-page {
+    max-width: 1000px;
+    padding: 60px;
+}
+
+.landing-page .content-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.landing-page h1 {
+    font-size: 3.5rem;
+    text-align: left;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.landing-page .diagram-section {
+    width: 55%;
+}
+
+.landing-page .diagram-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .hidden-input {
     position: absolute;
     opacity: 0;
