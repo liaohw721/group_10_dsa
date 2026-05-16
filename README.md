@@ -1,2 +1,2 @@
 # group_10_dsa
-Quick sort visualizer
+String matching visualizer  visualizer

@@ -1,0 +1,69 @@
+/* 1. Center everything using the body */
+body {
+    background-color: #8ACD52;
+    font-family: Arial, sans-serif;
+    margin: 0;           /* Removes default browser borders */
+    height: 100vh;       /* Makes the body the full height of the screen */
+    display: flex;       /* Turns on flexbox */
+    align-items: center; /* Centers the container vertically */
+    justify-content: center; /* Centers the container horizontally */
+}
+
+/* 2. The White Card */
+.container {
+    background-color: #FFFFFF; /* White instead of bisque */
+    border-radius: 30px;       /* Gives it those smooth rounded corners */
+    width: 85%;                /* Takes up 85% of the screen width */
+    max-width: 1000px;         /* Stops it from getting too huge on big monitors */
+    min-height: 60vh;          /* Ensures it has decent height */
+    padding: 50px;             /* Creates space inside the white card */
+    
+    /* Setup internal layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes content up and button down */
+    align-items: center;            /* Centers the button horizontally */
+    box-sizing: border-box;
+}
+
+/* 3. Left/Right split for Text and Diagram */
+.content-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; /* Puts text on left, diagram on right */
+    align-items: center;
+    margin-bottom: 40px; /* Space between text and button */
+}
+
+/* 4. Text Styling */
+.text-section h1 {
+    font-size: 3rem;     /* Large text */
+    font-weight: normal; /* Removes default bold to match image */
+    line-height: 1.3;    /* Spaces the lines out slightly */
+    margin: 0;
+}
+
+.diagram-section {
+    width: 50%; /* Reserves space on the right for your diagram */
+}
+
+/* 5. The Start Button */
+.start-btn {
+    background-color: #3A6B25; /* Dark green from your image */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 15px; /* Rounded button edges */
+    cursor: pointer;
+}
+
+.start-btn:hover {
+    background-color: #2D541C; /* Slightly darker on hover */
+}
+.diagram-img {
+    max-width: 100%; /* Ensures the image never grows wider than its container */
+    height: auto;    /* Keeps the image proportions correct */
+    display: block;  /* Removes weird spacing at the bottom of images */
+}
