@@ -1,20 +1,57 @@
-<!-- String matching visualizer --> 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>String Manipulation</title>
+    <title>KMP Main Process</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
-
 </head>
 <body>
+    <div class="container">
+        <div class="text-section">
+            <h1>Main Process</h1>
+        </div>
 
-    
-    
+        <div class="visualizer-area">
+            <div class="input-group">
+                <label>&pi;</label>
+                <div id="pi-display" class="block-container">
+                    <span class="placeholder-text">Waiting for preprocessing...</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="pointer-space">
+                    <img src="img/rabbit.png" id="text-pointer" class="pointer-img">
+                </div>
+                <label>Text</label>
+                <div id="text-display" class="block-container">
+                    <span class="placeholder-text">Text will appear here...</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="pointer-space">
+                    <img src="img/triangle.png" id="pattern-pointer" class="pointer-img">
+                </div>
+                <label>Pattern</label>
+                <div id="pattern-display" class="block-container">
+                    <span class="placeholder-text">Pattern will appear here...</span>
+                </div>
+            </div>
+
+            <div class="input-group result-row">
+                <label>Match</label>
+                <div id="match-output" class="block-container result-box">
+                    <span class="placeholder-text">Result will appear here...</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="start-btn" id="start-kmp-btn">Start Matching</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
-
-

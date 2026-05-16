@@ -60,3 +60,10 @@ document.addEventListener('DOMContentLoaded', () => {
       () => updateBlocks(
           patternInput, patternBlocks, 'Click to type pattern...'));
 });
+
+function movePointer(pointerId, index) {
+  const blockSize = 45;
+  const offset = 120;
+  const newLeft = offset + (index * blockSize);
+  document.getElementById(pointerId).style.left = `${newLeft}px`;
+}
