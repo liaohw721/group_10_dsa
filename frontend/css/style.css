@@ -169,3 +169,34 @@ body {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
 }
+
+/* =========================================
+   10. COLOR HIGHLIGHT ANIMATIONS
+   ========================================= */
+.char-block {
+    transition: all 0.2s ease; /* Makes color changes smooth */
+}
+
+.highlight-active {
+    background-color: #FFF59D !important; /* Yellow for "Currently comparing" */
+    border-color: #FBC02D !important;
+    transform: scale(1.1); /* Makes the active block slightly bigger */
+    z-index: 10;
+}
+
+.highlight-match {
+    background-color: #A5D6A7 !important; /* Green for "Match!" */
+    border-color: #388E3C !important;
+    color: #1B5E20;
+}
+
+.highlight-mismatch {
+    background-color: #EF9A9A !important; /* Red for "Mismatch!" */
+    border-color: #D32F2F !important;
+    color: #B71C1C;
+}
+
+.highlight-pi {
+    background-color: #BBDEFB !important; /* Blue for Pi array updates */
+    border-color: #1976D2 !important;
+}
