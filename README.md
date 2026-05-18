@@ -1,5 +1,5 @@
 # group_10_dsa
-String matching visualizer  visualizer
+String matching visualizer  visualizer web version
 
 **[String matching visualizer](https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html)**.
 **[github link](https://github.com/liaohw721/group_10_dsa.git)**.
