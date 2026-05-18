@@ -3,6 +3,7 @@ String matching visualizer  visualizer web version
 
 **[String matching visualizer](https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html)**.
 **[github link](https://github.com/liaohw721/group_10_dsa.git)**.
+**[scratch: https://scratch.mit.edu/projects/editor/?tutorial=getStarted ](https://scratch.mit.edu/projects/editor/?tutorial=getStarted)**
 
 # Team memebers, 
 henry
@@ -25,6 +26,8 @@ To help users visualize the logic, we used Scratch as a primary tool to construc
 ## 🚀 How to Use the Program
 
 You can access the live visualizer here:**[https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html](https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html)**..
+
+You can import the scratch file in here: **[scratch: https://scratch.mit.edu/projects/editor/?tutorial=getStarted ](https://scratch.mit.edu/projects/editor/?tutorial=getStarted)**.. and press play
 
 ### Step-by-Step Guide:
 1. **Starting Page:** Click the **"Start"** button on the home screen to enter the visualizer.
