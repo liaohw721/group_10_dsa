@@ -27,7 +27,7 @@ To help users visualize the logic, we used Scratch as a primary tool to construc
 
 You can access the live visualizer here:**[https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html](https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html)**..
 
-You can see the scratch file in here: **[https://scratch.mit.edu/projects/1321651408](https://scratch.mit.edu/projects/1321651408)**.. and press play
+You can see the scratch in here: **[https://scratch.mit.edu/projects/1321651408](https://scratch.mit.edu/projects/1321651408)**.. and press play
 
 ### Step-by-Step Guide:
 1. **Starting Page:** Click the **"Start"** button on the home screen to enter the visualizer.
