@@ -89,3 +89,12 @@ We look for the longest prefix that is also a suffix for every sub-pattern in `a
   ```text
   Text:    a a b a a b a a a
   Pattern: a a b a
+  
+ * **Step 2:**Because we found a match, we use our $\pi$ array to jump j. j = pi[3], so j becomes 1. This means we shift the pattern, but we already know the first a matches!
+  ```text
+ Text:    a a b a a b a a a
+               ^ (i is here at index 4)
+Pattern:       a a b a
+               ^ (j is here at index 1).
+ * **Step 3: ** We continue matching from i=4 and j=1. a, b, and a match! We found our second match. Result saved at index 3..
+ * **Conclusion: : **The algorithm successfully skips redundant checks, finding the pattern at indices 0 and 3 efficiently...
