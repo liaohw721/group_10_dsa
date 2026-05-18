@@ -1,7 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // ==========================================
-  // 1. INSERT PAGE LOGIC (insert.html)
-  // ==========================================
   const textInput = document.getElementById('text-input');
   const patternInput = document.getElementById('pattern-input');
   const textBlocks = document.getElementById('text-blocks');
@@ -87,10 +84,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-
-  // ==========================================
-  // 2. PREPROCESSING PAGE LOGIC (Animated Colors)
-  // ==========================================
   const prePatternDisplay = document.getElementById('pattern-display');
   const prePiDisplay = document.getElementById('pi-display');
 
@@ -171,10 +164,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-
-  // ==========================================
-  // 3. MAIN PROCESS PAGE LOGIC (Animated Colors)
-  // ==========================================
   const mainTextDisplay = document.getElementById('text-display');
   const mainPatternDisplay = document.getElementById('pattern-display');
   const mainPiDisplay = document.getElementById('pi-display');
@@ -269,10 +258,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-
-// ==========================================
-// KMP BACKEND LOGIC & UTILITIES
-// ==========================================
 
 function computePiArray(pattern) {
   const m = pattern.length;
