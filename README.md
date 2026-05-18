@@ -99,5 +99,5 @@ Pattern:       a a b a
                ^ (j is here at index 1)
 ```
  * **Step 3:** We continue matching from i=4 and j=1. a, b, and a match! We found our second match. Result saved at index 3..
-### 2. Main Search
- * **Conclusion:: **The algorithm successfully skips redundant checks, finding the pattern at indices 0 and 3 efficiently...
+### Conclusion
+ * The algorithm successfully skips redundant checks, finding the pattern at indices 0 and 3 efficiently...
