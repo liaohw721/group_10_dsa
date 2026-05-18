@@ -20,6 +20,8 @@ Welcome to our Interactive String Matching Visualizer! This project is a web-bas
 
 ---
 
+To help users visualize the logic, we used Scratch as a primary tool to construct and prototype the core concept of this project. By utilizing Scratch's block-based programming environment, we were able to map out the pointer movements and the $\pi$ array logic in a visual space before transitioning to our final web implementation. This approach allowed us to ensure the "intelligence" of the KMP shifts was intuitive and accurate before scaling it into a full-scale visualizer.
+
 ## 🚀 How to Use the Program
 
 You can access the live visualizer here:**[https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html](https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html)**..
