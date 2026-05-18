@@ -22,7 +22,7 @@ Welcome to our Interactive String Matching Visualizer! This project is a web-bas
 
 ## 🚀 How to Use the Program
 
-You can access the live visualizer here: **`https://[your-username].github.io/group_10_dsa/`** *(Note: replace with your actual link)*.
+You can access the live visualizer here: **`(https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html)`** .
 
 ### Step-by-Step Guide:
 1. **Starting Page:** Click the **"Start"** button on the home screen to enter the visualizer.
