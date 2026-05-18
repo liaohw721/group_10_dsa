@@ -1,7 +1,7 @@
 # group_10_dsa
 String matching visualizer  visualizer
 
-**`[https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html]`** *(https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html)*.
+**[String matching visualizer](https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html)**.
 
 # Team memebers, 
 henry
@@ -21,7 +21,7 @@ Welcome to our Interactive String Matching Visualizer! This project is a web-bas
 
 ## 🚀 How to Use the Program
 
-You can access the live visualizer here: **`[https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html]`** *(https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html)*.
+You can access the live visualizer here:**[https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html](https://liaohw721.github.io/group_10_dsa/frontend/startingpage.html)**..
 
 ### Step-by-Step Guide:
 1. **Starting Page:** Click the **"Start"** button on the home screen to enter the visualizer.
